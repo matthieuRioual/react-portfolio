@@ -1,0 +1,32 @@
+.box {
+  width:50px;
+  height:50px;
+  display:flex;
+  z-index:0;
+  padding: calc(5px + 5px);
+  position: relative;
+align-items: center;
+justify-content: center;
+}
+
+.box:before{
+  --v:calc( ((18/5) * var(--p) - 90)*1deg);
+  content:"";
+  border-radius:50%;
+  position:absolute;
+  z-index:-1;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:
+    linear-gradient(var(--v), #191923     50%,transparent 0) 0/min(100%,(50 - var(--p))*100%),
+    linear-gradient(var(--v), transparent 50%,#ffc107        0) 0/min(100%,(var(--p) - 50)*100%),
+    linear-gradient(to right, #191923 50%,#ffc107 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite:destination-out;
+  mask-composite:exclude;
+  padding: 5px;
+}
