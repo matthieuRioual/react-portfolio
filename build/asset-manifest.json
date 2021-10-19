@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.114d8bc5.chunk.css",
+    "main.js": "/static/js/main.4fe6c43b.chunk.js",
+    "main.js.map": "/static/js/main.4fe6c43b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4191ec18.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4191ec18.js.map",
+    "static/js/2.37ea107d.chunk.js": "/static/js/2.37ea107d.chunk.js",
+    "static/js/2.37ea107d.chunk.js.map": "/static/js/2.37ea107d.chunk.js.map",
+    "static/js/3.161446ce.chunk.js": "/static/js/3.161446ce.chunk.js",
+    "static/js/3.161446ce.chunk.js.map": "/static/js/3.161446ce.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.114d8bc5.chunk.css.map": "/static/css/main.114d8bc5.chunk.css.map",
+    "static/js/2.37ea107d.chunk.js.LICENSE.txt": "/static/js/2.37ea107d.chunk.js.LICENSE.txt",
+    "static/media/c.2ba4f80c.gif": "/static/media/c.2ba4f80c.gif",
+    "static/media/discord-brands.acd95b77.svg": "/static/media/discord-brands.acd95b77.svg",
+    "static/media/github-brands.e2f07326.svg": "/static/media/github-brands.e2f07326.svg",
+    "static/media/java.589c5822.gif": "/static/media/java.589c5822.gif",
+    "static/media/javascript.cb90a140.gif": "/static/media/javascript.cb90a140.gif",
+    "static/media/linkedin-brands.f4041044.svg": "/static/media/linkedin-brands.f4041044.svg",
+    "static/media/minion.6dc69591.png": "/static/media/minion.6dc69591.png",
+    "static/media/middleheader.css": "/static/media/montain.a73b42a8.jpg",
+    "static/media/profile-image.c8f7761d.png": "/static/media/profile-image.c8f7761d.png",
+    "static/media/python.fae8cf97.gif": "/static/media/python.fae8cf97.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4191ec18.js",
+    "static/js/2.37ea107d.chunk.js",
+    "static/css/main.114d8bc5.chunk.css",
+    "static/js/main.4fe6c43b.chunk.js"
+  ]
+}

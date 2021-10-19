@@ -17,14 +17,14 @@ export const FlippingCard = ({ language_name, color1, color2, projects }) => {
                 </div>
                 <div className="flip-card-back" style={{ backgroundImage: `linear-gradient(135deg,${color1},${color2}) ` }}>
                     <ul>
-                        {projects && projects.map((name) =>
-                            <a href=""><li>
+                        {projects && projects.map((name, index) =>
+                            <li><a href="">
                                 {name}
-                            </li></a>
+                            </a></li>
 
                         )}
                     </ul>
-                    
+
                 </div>
             </div>
 

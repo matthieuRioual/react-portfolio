@@ -24,7 +24,7 @@ export const MiddleHeader = () => {
             this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
 
-        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+        this.el.innerHTML = '<span className="wrap">' + this.txt + '</span>';
 
         var that = this;
         var delta = 300 - Math.random() * 100;
@@ -66,7 +66,7 @@ export const MiddleHeader = () => {
             <div className="background-header">
                 <div className="overlay">
 
-                    <div class="banner-text">
+                    <div className="banner-text">
                         <h1 className="headertitle">
                             <span>Welcome in my Portfolio</span>
                         </h1>
@@ -75,7 +75,7 @@ export const MiddleHeader = () => {
                         &gt;
                         I build&nbsp;
                         <span
-                            class="txt-rotate"
+                            className="txt-rotate"
                             data-period="2000"
                             data-rotate='[ "full stack websites", "machine learning algorithms", "cloud and big data solutions"]'>
                         </span>
