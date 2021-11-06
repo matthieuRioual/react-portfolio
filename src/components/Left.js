@@ -44,13 +44,31 @@ const Left = () => {
                     <h2>Language</h2>
                     <div className="bar-charts">
                         <div>
-                            <StaticRoundBar percentage="100" title="French" label="native" />
+                            <div className="circle">
+                                Native
+
+                            </div>
+                            <p>
+                                French
+                            </p>
                         </div>
                         <div>
-                            <StaticRoundBar percentage="80" title="English" label="C1" />
+                            <div className="circle">
+                                C1
+
+                            </div>
+                            <p>
+                                English
+                            </p>
                         </div>
                         <div>
-                            <StaticRoundBar percentage="30" title="Chinese" label="A2" />
+                            <div className="circle">
+                                A2
+
+                            </div>
+                            <p>
+                                Chinese
+                            </p>
                         </div>
 
                     </div>

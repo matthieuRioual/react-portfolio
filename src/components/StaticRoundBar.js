@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const CSSVariables = styled.div`
   --p: ${props => props.percentage};
-  &::before{     --v:calc( ((18/5) * ${(props) => props.percentage} - 90)*1deg);)
+  --v: calc( ((18/5) * ${(props) => props.percentage} - 90)*1deg);
 `;
 
 export const StaticRoundBar = ({ percentage, title, label }) => {

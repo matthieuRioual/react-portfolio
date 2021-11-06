@@ -77,18 +77,20 @@ export const MiddleHeader = () => {
                         <span
                             className="txt-rotate"
                             data-period="2000"
-                            data-rotate='[ "full stack websites", "machine learning algorithms", "cloud and big data solutions"]'>
+                            data-rotate='[ "full stack websites", "machine learning algorithms", "cloud and big data solutions","android application"]'>
                         </span>
                         &lt;/<i>code</i>&gt;
                         <div className="contacts-button">
                             <button>
-                                Dowload my CV
+                                <a href="/CV.pdf" download="cv_rioual.pdf">
+                                    Dowload my CV
+                                </a>
                             </button>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <img src={image} alt="" />
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

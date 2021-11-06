@@ -1,0 +1,70 @@
+.container-fluid{
+    overflow: visible;
+    position: relative;
+}
+.overlay{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 60px;
+    max-width: 100%;
+
+}
+.content img{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    max-height: 350px;
+}
+
+h1.headertitle span{
+    font-size: 45px;
+}
+
+
+.background-header{
+    position: relative;
+}
+
+.background-header::before{
+    content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+    background-image: url("../montain.jpg");
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 0 3px 8px 0 rgba(236, 236, 255, 0.2);
+    box-shadow: 0 3px 8px 0 rgba(74, 74, 77, 0.2);
+    z-index: 0;
+    opacity: 0.4;
+}
+i{
+    color: #ffc107;
+}
+
+.banner-text{
+    text-align: left;
+}
+
+.contacts-button{
+    
+    margin-top: 30px;
+}
+
+.contacts-button button{
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #ffc107;
+  font-weight: 300;
+  height: 45px;
+  font-family: 'Poppins';
+  padding: 0 35px;
+}
