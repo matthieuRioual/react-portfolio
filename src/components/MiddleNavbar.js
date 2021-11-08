@@ -28,13 +28,6 @@ export const MiddleNavbar = () => {
 
                 </li>
             </NavLink>
-            <NavLink to="/contact" activeClassName="nav-active">
-                <li className="navbaritem">
-
-                    Contact
-
-                </li>
-            </NavLink>
 
         </ul>
     )

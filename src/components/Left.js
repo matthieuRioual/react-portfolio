@@ -1,17 +1,15 @@
 import React from 'react'
-import "./styles/Left.css";
 import avatar from "../minion.png";
 import github from "../github-brands.svg";
 import linkdin from "../linkedin-brands.svg";
 import discord from "../discord-brands.svg";
-import { StaticRoundBar } from './StaticRoundBar';
 import { Divider } from './Divider';
 import { PartialLine } from './PartialLine';
 
 
 const Left = () => {
     return (
-        <div className="l-s-b">
+        <div className="l-s-b col-12 col-sm-auto">
             <div className="l-s-b-header">
                 <img src={avatar} />
                 <p>Matthieu RIOUAL</p>

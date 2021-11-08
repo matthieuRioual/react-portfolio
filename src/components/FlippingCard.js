@@ -1,5 +1,4 @@
 import React from 'react'
-import "./styles/flippingcard.css"
 import Python from "../assets/img/languages/python.gif"
 import Java from "../assets/img/languages/java.gif"
 import C from "../assets/img/languages/c.gif"

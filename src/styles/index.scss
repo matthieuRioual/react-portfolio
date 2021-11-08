@@ -1,8 +1,9 @@
-@import './circle';
 @import './divider';
 @import './flippingcard';
 @import './Left';
 @import './middle';
 @import './progressbar';
 @import './project';
-@import './middleheader'
+@import './middleheader';
+
+@import '~bootstrap/scss/bootstrap.scss';

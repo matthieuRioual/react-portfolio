@@ -1,5 +1,4 @@
 import React from 'react'
-import "./styles/progressbar.css"
 
 export const PartialLine = ({ percentage }) => {
     return (

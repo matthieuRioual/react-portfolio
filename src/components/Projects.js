@@ -1,6 +1,5 @@
 import React from 'react'
 import { FlippingCard } from './FlippingCard'
-import "./styles/project.css"
 
 export const Projects = () => {
     return (

@@ -1,9 +1,11 @@
 import React from 'react'
-import "./styles/middleheader.css"
-import image from "../profile-image.png"
+import { useState } from 'react';
+import { ContactModal } from './ContactModal';
 
-export const MiddleHeader = () => {
-
+export const MiddleHeader = ({ openModal }) => {
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     var TxtRotate = function (el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -86,6 +88,11 @@ export const MiddleHeader = () => {
                                     Dowload my CV
                                 </a>
                             </button>
+                            <button onClick={handleShow} style={{ "margin-left": "10px" }}>
+                                Contacts
+                            </button>
+
+                            <ContactModal handleClose={handleClose} show={show}></ContactModal>
                         </div>
                     </div>
                     {/* <div>
@@ -95,6 +102,6 @@ export const MiddleHeader = () => {
                 </div>
             </div>
 
-        </div>
+        </div >
     )
 }
