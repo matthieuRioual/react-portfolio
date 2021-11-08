@@ -7,6 +7,10 @@
     box-shadow: 0 3px 8px 0 rgba(15,15,200,0.2);
     flex-shrink: 0;
     position: relative;
+    h2{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
 }
 .l-s-b-header{
     max-width: 100%;
@@ -17,7 +21,7 @@
     box-shadow: 0 1px 4px 0 rgba(15,15,20,0.1);
 }
 .l-s-b-header img{
-    height: 90px;
+    height: 120px;
     border-radius: 100%;
     border:1px solid black;
 }

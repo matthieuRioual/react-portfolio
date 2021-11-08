@@ -12,7 +12,7 @@ const Left = () => {
         <div className="l-s-b col-12 col-sm-auto">
             <div className="l-s-b-header">
                 <img src={avatar} />
-                <p>Matthieu RIOUAL</p>
+                <h2>Matthieu RIOUAL</h2>
                 <p>Computering engineer</p>
             </div>
             <div className="l-s-b-info">

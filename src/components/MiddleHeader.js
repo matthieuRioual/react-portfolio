@@ -88,7 +88,7 @@ export const MiddleHeader = ({ openModal }) => {
                                     Dowload my CV
                                 </a>
                             </button>
-                            <button onClick={handleShow} style={{ "margin-left": "10px" }}>
+                            <button onClick={handleShow} style={{ "marginLeft": "10px" }}>
                                 Contacts
                             </button>
 
