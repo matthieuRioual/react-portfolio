@@ -13,9 +13,7 @@ export const ContactModal = ({ show, handleClose }) => {
                  console.log(err)
              }); */
     };
-    this.state = {
-        value: "false"
-    };
+
     return (
         <Modal show={show} onHide={handleClose} animation={false}>
             <Modal.Header closeButton>
@@ -37,7 +35,7 @@ export const ContactModal = ({ show, handleClose }) => {
                         <Form.Control as="textarea" name="message" rows={10} />
                     </Form.Group>
                     <Form.Group controlId="form.Checkbox">
-                        <Form.Check type="checkbox" label="Recevoir un email de confirmation de recu" value={this.state.value}></Form.Check>
+                        <Form.Check type="checkbox" label="Recevoir un email de confirmation de recu"></Form.Check>
                     </Form.Group>
 
                 </Modal.Body>

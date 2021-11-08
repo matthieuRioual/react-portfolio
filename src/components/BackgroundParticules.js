@@ -118,3 +118,5 @@ export const BackgroundParticules = () => {
         />
     )
 }
+
+export default BackgroundParticules;
