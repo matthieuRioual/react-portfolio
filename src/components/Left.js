@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from "../minion.png";
+import avatar from "../assets/img//profil.png";
 import github from "../github-brands.svg";
 import linkdin from "../linkedin-brands.svg";
 import discord from "../discord-brands.svg";
