@@ -8,7 +8,7 @@ import { PartialLine } from './PartialLine';
 
 
 const Left = () => {
-    copy_discord = () => {
+    const copy_discord = () => {
         navigator.clipboard.writeText('matthieuR#9471');
 
         /* Alert the copied text */
@@ -107,7 +107,7 @@ const Left = () => {
                     <a href="https://www.linkedin.com/in/matthieu-rioual-1689b4133/">
                         <img src={linkdin} />
                     </a>
-                    <a href="https://www.linkedin.com/in/matthieu-rioual-1689b4133/">
+                    <a href="#">
                         <img src={discord} onClick={copy_discord} />
                     </a>
                 </div>
