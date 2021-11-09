@@ -8,6 +8,12 @@ import { PartialLine } from './PartialLine';
 
 
 const Left = () => {
+    copy_discord = () => {
+        navigator.clipboard.writeText('matthieuR#9471');
+
+        /* Alert the copied text */
+        alert("Pseudo copié!");
+    }
     return (
         <div className="l-s-b col-12 col-sm-auto">
             <div className="l-s-b-header">
@@ -102,7 +108,7 @@ const Left = () => {
                         <img src={linkdin} />
                     </a>
                     <a href="https://www.linkedin.com/in/matthieu-rioual-1689b4133/">
-                        <img src={discord} />
+                        <img src={discord} onClick={copy_discord} />
                     </a>
                 </div>
 
