@@ -7,3 +7,98 @@
 @import './middleheader';
 
 @import '~bootstrap/scss/bootstrap.scss';
+
+
+main {
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+  }
+  main{
+    margin-top: 50px;
+  }
+  main div {
+    margin-top: 50px;
+    font-size: 1em;
+    line-height: 1.75em;
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #a940c4 0%, #ffc107 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+    margin: 0;
+    padding: 40px;
+    counter-increment: section;
+    position: relative;
+    color: $white;
+    &.first span{
+        top: -10px;
+        right: -45px;
+    }
+    &.last span{
+        bottom: -12px;
+        right: -30px;
+
+    }
+    span {
+        font-family: Tangerine;
+        font-size: 5em;
+        position: absolute;
+        display: flex;
+        right: 0;
+        left: 0;
+        align-items: center;
+        &:before,&:after{
+            content: ' ';
+            height: 3px;
+            background: #ffc107;
+            display: block;
+            width: 35%;
+        }
+    }
+
+    //numbers
+    &:before {
+      content: counter(section);
+      position: absolute;
+      border-radius: 100%;
+      padding: 10px;
+      height: 2.25em;
+      width: 2.25em;
+      background-color: #ffc107;
+      text-align: center;
+      line-height: 1.25em;
+      color: $white;
+      font-size: 2em;
+    }
+  }
+  //odd number borders
+  main div:nth-child(odd) {
+    border-right: 3px solid;
+    padding-left: 0;
+    
+    &:before {
+      left: 100%; 
+      margin-left: -26px;
+    }
+  }
+  //even number borders
+  main div:nth-child(even) {
+    border-left: 3px solid;
+    padding-right: 0;
+    
+    &:before {
+      right: 100%; 
+      margin-right: -26px;
+    }
+  }
+  //handle first and last
+  main div:first-child {
+    border-top: none;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+  }
+  main div:last-child {
+      border-bottom: none;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+  }
