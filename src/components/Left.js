@@ -101,7 +101,7 @@ const Left = () => {
             </div>
             <div className="l-s-b-socials">
                 <div className="socials-wrapper">
-                    <a href="https://github.com/matthieulapatate?tab=overview">
+                    <a href="https://github.com/matthieuRioual">
                         <img src={github} />
                     </a>
                     <a href="https://www.linkedin.com/in/matthieu-rioual-1689b4133/">
